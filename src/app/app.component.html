@@ -1,7 +1,7 @@
 <div>
   <h1>{{ title }}</h1>
 
-  <img src="assets/BL_logo_square_jpg.jpg" 
+  <img [src]="imgUrl" (click)="onClick($event)"
        alt="The BridgeLabz logo: a Bridge to Employment through a lab works">
 </div>
 
